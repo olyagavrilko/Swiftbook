@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='raw' buildActiveScheme='true' importAppTypes='true'>
+    <pages>
+        <page name='String'/>
+        <page name='Типы коллекций'/>
+        <page name='Управление потоком'/>
+        <page name='Функции'/>
+        <page name='Замыкания'/>
+        <page name='Перечисления'/>
+        <page name='Структуры и классы'/>
+        <page name='Свойства'/>
+        <page name='Методы'/>
+        <page name='Сабскрипты'/>
+    </pages>
+</playground>
