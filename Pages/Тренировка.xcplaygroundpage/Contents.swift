@@ -60,52 +60,56 @@ import Foundation
 //    print("\(result)")
 //}
 
-enum Side: Int, CaseIterable {
-    case north = 4
-    case south = 2
-    case west = 1
-    case east = 3
-    
-    var description: String {
-        switch self {
-        case .north:
-            return "Север"
-        case .south:
-            return "Юг"
-        case .west:
-            return "Запад"
-        case .east:
-            return "Восток"
-        }
-    }
-    
-    init() {
-        self = .north
-    }
-}
-let defaultSide = Side()
+//enum Side: Int, CaseIterable {
+//    case north = 4
+//    case south = 2
+//    case west = 1
+//    case east = 3
+//
+//    var description: String {
+//        switch self {
+//        case .north:
+//            return "Север"
+//        case .south:
+//            return "Юг"
+//        case .west:
+//            return "Запад"
+//        case .east:
+//            return "Восток"
+//        }
+//    }
+//
+//    init() {
+//        self = .north
+//    }
+//}
+//let defaultSide = Side()
+//
+//let side = Side(rawValue: 1)
+//
+//for side in Side.allCases {
+//    print(side)
+//}
+//
+//enum MyOptional<T> {
+//    case some(T)
+//    case none
+//}
+//
+//let optional: MyOptional<Int> = MyOptional.some(5)
+//
+//switch optional {
+//case .some(let value):
+//    print(value)
+//case .none:
+//    print("nil")
+//}
+//
+//if case .some(let value) = optional {
+//    print(value)
+//}
 
-let side = Side(rawValue: 1)
 
-for side in Side.allCases {
-    print(side)
-}
 
-enum MyOptional<T> {
-    case some(T)
-    case none
-}
 
-let optional: MyOptional<Int> = MyOptional.some(5)
-
-switch optional {
-case .some(let value):
-    print(value)
-case .none:
-    print("nil")
-}
-
-if case .some(let value) = optional {
-    print(value)
-}
 //: [Next](@next)

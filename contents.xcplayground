@@ -11,5 +11,8 @@
         <page name='Свойства'/>
         <page name='Методы'/>
         <page name='Сабскрипты'/>
+        <page name='Тренировка'/>
+        <page name='Инициализация'/>
+        <page name='Наследование'/>
     </pages>
 </playground>
