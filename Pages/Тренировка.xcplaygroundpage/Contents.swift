@@ -2,6 +2,11 @@
 
 import Foundation
 
+// Потренировать
+// Наследование
+// Структурные и классовые типы, String, Array и т.д.
+// Как устроена память для классов и структур
+
 //var a = 3
 //var b = 7
 //
@@ -108,6 +113,36 @@ import Foundation
 //if case .some(let value) = optional {
 //    print(value)
 //}
+
+var input = [5, 7, 1, 1, 2, 3, 22]
+
+func nonConstructibleChange(_ coins: inout [Int]) -> Int {
+    
+    coins = coins.sorted()
+    
+    var maxChange = 0
+    print(maxChange)
+    
+    if maxChange > 1 {
+        return 1
+    }
+    
+    var minNonConstructibleChange = 0
+    
+    for coin in coins {
+        if maxChange >= coin {
+            maxChange += coin
+            print(maxChange)
+        } else {
+            minNonConstructibleChange = maxChange + 1
+        }
+    }
+    
+    print(minNonConstructibleChange)
+    return minNonConstructibleChange
+}
+
+nonConstructibleChange(&input)
 
 
 

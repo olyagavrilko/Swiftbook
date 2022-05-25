@@ -2,8 +2,6 @@
 
 import Foundation
 
-/*:
- Вычисляемое свойство всегда var
-*/
+var greeting = "Hello, playground"
 
 //: [Next](@next)
