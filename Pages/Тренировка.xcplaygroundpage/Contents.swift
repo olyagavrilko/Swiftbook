@@ -6,6 +6,8 @@ import Foundation
 // Наследование
 // Структурные и классовые типы, String, Array и т.д.
 // Как устроена память для классов и структур
+// Stack, Queue, List
+// Closure для array.first, array.contains и т. д.
 
 //var a = 3
 //var b = 7
