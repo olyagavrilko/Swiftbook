@@ -8,6 +8,7 @@ import Foundation
 // Как устроена память для классов и структур
 // Stack, Queue, List
 // Closure для array.first, array.contains и т. д.
+// () -> Void и () -> ()
 
 //var a = 3
 //var b = 7
@@ -116,37 +117,35 @@ import Foundation
 //    print(value)
 //}
 
-var input = [5, 7, 1, 1, 2, 3, 22]
-
-func nonConstructibleChange(_ coins: inout [Int]) -> Int {
-    
-    coins = coins.sorted()
-    
-    var maxChange = 0
-    print(maxChange)
-    
-    if maxChange > 1 {
-        return 1
-    }
-    
-    var minNonConstructibleChange = 0
-    
-    for coin in coins {
-        if maxChange >= coin {
-            maxChange += coin
-            print(maxChange)
-        } else {
-            minNonConstructibleChange = maxChange + 1
-        }
-    }
-    
-    print(minNonConstructibleChange)
-    return minNonConstructibleChange
-}
-
-nonConstructibleChange(&input)
-
-
+//var input = [5, 7, 1, 1, 2, 3, 22]
+//
+//func nonConstructibleChange(_ coins: inout [Int]) -> Int {
+//
+//    coins = coins.sorted()
+//
+//    var maxChange = 0
+//    print(maxChange)
+//
+//    if maxChange > 1 {
+//        return 1
+//    }
+//
+//    var minNonConstructibleChange = 0
+//
+//    for coin in coins {
+//        if maxChange >= coin {
+//            maxChange += coin
+//            print(maxChange)
+//        } else {
+//            minNonConstructibleChange = maxChange + 1
+//        }
+//    }
+//
+//    print(minNonConstructibleChange)
+//    return minNonConstructibleChange
+//}
+//
+//nonConstructibleChange(&input)
 
 
 //: [Next](@next)

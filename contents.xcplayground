@@ -21,5 +21,7 @@
         <page name='Расширения'/>
         <page name='Непрозрачные типы'/>
         <page name='Протоколы'/>
+        <page name='Универсальные шаблоны'/>
+        <page name='ARC'/>
     </pages>
 </playground>
